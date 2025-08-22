@@ -1,20 +1,14 @@
+/* База */
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     margin: 0;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
+a { text-decoration: none; color: inherit; }
+ul { list-style: none; margin: 0; padding: 0; }
+button { cursor: pointer; }
 
 /* ===== ЛОГОТИП (header) ===== */
 .logo {
@@ -24,98 +18,103 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: #4D5AE5;
 }
-.logo-accent {
-    color: #2e2f42;
-}
+.logo-accent { color: #2E2F42; }
 
-/* ===== НАВІГАЦІЯ ===== */
+/* ===== МЕНЮ ===== */
 .menu-link {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #2E2F42;
 }
 .menu-link:hover,
-.menu-link:focus {
-    color: #404bbf;
-}
+.menu-link:focus { color: #404BBF; }
 
 /* ===== КОНТАКТИ ===== */
-.contacts {
-    font-style: normal;
-}
+.contacts { font-style: normal; }
 .contacts-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 .contacts-link:hover,
-.contacts-link:focus {
-    color: #404bbf;
-}
+.contacts-link:focus { color: #404BBF; }
 
-/* ===== HERO ===== */
+/* ===== HERO (секція №1) ===== */
+.hero { background-color: #2E2F42; }
 .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    color: #FFFFFF;
     letter-spacing: 0.02em;
-    color: #2e2f42; /* колір тексту можна змінити за потреби теми */
 }
 .hero-btn {
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background-color: #4d5ae5;
-    color: #ffffff;
-    cursor: pointer;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
 }
 .hero-btn:hover,
-.hero-btn:focus {
-    background-color: #404BBF;
-}
+.hero-btn:focus { background-color: #404BBF; }
 
-/* ===== FEATURES ===== */
+/* ===== FEATURES (секція №2) ===== */
 .section-title {
+    /* використовується у секціях 2,3,4 */
+    font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    text-align: center;
+    color: #2E2F42;
 }
 .feature-title {
     font-weight: 500;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #2E2F42;
 }
 .feature-text {
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-/* ===== TEAM ===== */
+/* ===== TEAM (секція №3) ===== */
+.team { background-color: #F4F4FD; }
+.team-item { background-color: #FFFFFF; }
 .team-name {
     font-weight: 500;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #2E2F42;
 }
 .team-role {
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-/* ===== PORTFOLIO ===== */
+/* ===== PORTFOLIO (секція №4) ===== */
 .card-title {
     font-weight: 500;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #2E2F42;
 }
 .card-text {
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
 /* ===== FOOTER ===== */
-.site-footer { /* клас футера присутній (без layout-властивостей) */ }
+.site-footer { background-color: #2E2F42; }
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -123,13 +122,11 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: #4D5AE5;
 }
-.footer-logo-accent {
-    color: #f4f4fd;
-}
+.footer-logo-accent { color: #F4F4FD; }
 .footer-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #f4f4fd;
+    color: #F4F4FD;
 }
